@@ -1,0 +1,86 @@
+.Header {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans';
+
+}
+
+.Main {
+    width: 100vw;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Footer {
+    width: 100vw;
+    /*height: 30vh;*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    color: #0E2368;
+    padding: 48px 0 42px 0;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    background: #F8F8F8;
+    /*border: 1px solid black;*/
+}
+
+.Footer * {
+    margin: 0;
+    padding: 0;
+}
+
+/* All Buttons */
+button {
+    border: 0;
+    border-radius: 34px;
+    background-color: #E23744;
+
+    cursor: pointer;
+    
+    color: white;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 700;
+
+    height: 48px;
+    width: 192px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .Header {
+        flex-direction: column-reverse;
+    }
+
+    .Main {
+        width: 100vw;
+
+        display: flex;
+        flex-direction: column;
+
+        align-content: center;
+    }
+
+    .Footer {
+        height: 100vh;
+        flex-direction: column;
+
+        padding: 0;
+        justify-content: center;
+        gap: 2rem;
+    }
+}

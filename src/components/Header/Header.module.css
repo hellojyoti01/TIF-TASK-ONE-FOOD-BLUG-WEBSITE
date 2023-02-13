@@ -1,0 +1,144 @@
+.HeaderVector {
+    position: absolute;
+    top: -1%;
+    right: 0;
+
+    height: 100%;
+}
+
+/* Left half of Top Screen */
+.TopIntro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+   
+}
+
+.CenterArea {
+   
+
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+}
+.CenterArea > img {
+    align-self: flex-start;
+    width: 100px;
+
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+.CenterArea > h3 {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 48px;
+
+    line-height: 50px;
+    color: #0E2368;
+    margin: 0;
+}
+.CenterArea > h3 > span {
+    color: crimson;
+}
+.CenterArea > p {
+    font-size: 16px;
+    font-weight: 400;
+
+    margin: 24px 0;
+}
+
+/* Right Half of Screen */
+.TopPizza {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-end;
+    width: 50%;
+    /*border: 1px solid black;*/
+}
+.TopPizza > button {
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    font-size: 15px;
+
+    max-width: 115px;
+    height: 36px;
+
+    position: absolute;
+    right: 0%;
+
+    margin: 14px 22px 0 0 ;
+
+    z-index: 1;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.TopPizza > img {
+    width: 90%;
+    height: 95%;
+
+    /*position: relative;*/
+    /*right: -5%;*/
+}
+
+
+@media (max-width: 600px) {
+    .HeaderVector {
+        height: 58vh;
+        position: absolute;
+        top: 0%;
+        right: -1%;
+    }
+
+    .TopIntro {
+        display: flex;
+        width: 100%;
+        height: 50%;
+
+
+    }
+    .TopPizza {
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    .TopPizza > button {
+        margin: 13px 10px 0 0;
+
+        max-width: 100px;
+        height: 32px;
+
+        font-size: 12px;
+    }
+    .TopPizza > img {
+        width: 99%;
+        height: 100%;
+        position: static;
+    }
+
+    .CenterArea {
+        width: 100%;
+        height: 100%;
+
+        padding: 0 18%;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .CenterArea > h3 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .CenterArea > p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}

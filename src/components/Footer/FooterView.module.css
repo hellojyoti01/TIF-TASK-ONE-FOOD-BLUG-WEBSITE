@@ -1,0 +1,115 @@
+.FooterLogo {
+    height: 80px;
+    align-self: center;
+}
+
+.FooterH1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.ContactUs {
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+}
+
+.ContactUs > p {
+    color: #646874;
+    font-weight: 400;
+    margin: 12px 0 0 0;
+}
+
+.MoreOptions {
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+}
+
+.MoreOptions > a {
+    margin: 12px 0 0 0;
+    text-decoration: none;
+    color: #646874;
+    font-weight: 400;
+}
+
+.Socials {
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Socials * {
+    margin: 4px 0;
+}
+
+.SocialsRow {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+.CopyrightText {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+
+    margin: auto 0;
+    position: relative;
+    bottom: -12%;
+    color: #828B9C;
+}
+
+@media (max-width: 600px) {
+    .FooterLogo {
+        width: 100px;
+        height: 70px;
+        margin-bottom: 32px;
+    }
+
+    .ContactUs {
+        width: 70%;
+        margin-left: 10%;
+    }
+    .ContactUs > p {
+        margin: 4px 0;
+    }
+
+    .MoreOptions {
+        width: 70%;
+        margin-left: 10%;
+    }
+    .MoreOptions > a {
+        margin: 6px 0;
+    }
+
+    .Socials {
+        width: 70%;
+        margin-top: 64px;
+        align-self: center;
+        align-items: center;
+    }
+
+    .SocialsRow {
+        gap: 1.6rem;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CopyrightText {
+        margin: 0;
+        font-size: 12px;
+        position: static;
+    }
+}

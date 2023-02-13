@@ -1,0 +1,71 @@
+.AboutArea {
+    display: flex;
+    flex-direction: row;
+
+    height: 467px;
+
+    justify-content: space-evenly;
+    background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+}
+
+.AboutImage {
+    width: 384px;
+    height: 468px;
+}
+
+.AboutTexts {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    width: 30%;
+}
+
+.AboutTexts > h1 {
+    color: #0E2368;
+    font-size: 36px;
+    margin: 0;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+.AboutTexts > p {
+    font-size: 14px;
+    margin: 1.2rem 0;
+    color: #444957;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+
+.AboutTexts > button {
+    width: 132px;
+    height: 42px;
+}
+
+@media (max-width: 600px) {
+    .AboutArea {
+        height: 516px;
+        padding: 2rem 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutTexts {
+        align-items: center;
+        text-align: center;
+        width: 80%;
+    }
+
+    .AboutTexts > button {
+        margin-top: 12px;
+        width: 116px;
+        height: 40px;
+    }
+    .AboutTexts > p {
+        font-size: 12px;
+        margin: 1.2rem 2rem;
+        color: #444957;
+        line-height: 21px;
+    }
+}
