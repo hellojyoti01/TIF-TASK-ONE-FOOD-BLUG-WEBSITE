@@ -1,10 +1,7 @@
-## Food Truck - All About Foods 🥗
+## Food Blug
+Built using **JavaScript**, **React** , **ReactDom**.
 
-Built using **JavaScript**, **React**.
-
-Demo: **https://foodtruckif.vercel.app/**
-
-<img src="./screenshot.png" width="80%" alt="Food Truck Homepage"/>
+Demo: **https://tif-task-one-food-blug-website.vercel.app/**
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -12,58 +9,33 @@ Demo: **https://foodtruckif.vercel.app/**
 Running a development environment for this project will be the easiest thing in you day.
 
 ### Steps to run
+In the project directory, you can run:
 
-* Clone the repository
+## npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-  ```zsh
-  git clone https://github.com/sarkartanmay393/Foodtruck-React.git
-  ```
+The page will reload when you make changes.
+You may also see any lint errors in the console.
 
-* Start react project
+## npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
-  ```zsh
-  npm start 
-  ```
+## npm run build
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<br />
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
 
-> If any issue occurred while running, retry all.
+See the section about deployment for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## npm run eject
+Note: this is a one-way operation. Once you eject, you can't go back!
 
-<!-- CONTRIBUTING -->
-## Contributing
+If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement" or "good-first-issues".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -s -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-6. Wait for review
-
-> All of your commits should be signed always.
-
-<!-- ROADMAP -->
-## Roadmap
-
-* [x] Styling
-* [x] Responsive UI
-* [x] Web Application
-
-See the [open issues](https://github.com/sarkartanmay393/Foodtruck-React/issues) for a full list of proposed features (and known issues).
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - Tanmay Sarkar [@sarkartanmay393](https://twitter.com/sarkartanmay393) - [hello@tanmaysarkar.tech](mailto:hello@tanmaysarkar.tech)
-
-Project Link: [https://github.com/sarkartanmay393/Foodtruck-React](https://github.com/sarkartanmay393/Foodtruck-React)
-
-**Thanks for visiting my project. If you like it, please give it a star. It will help me a lot. Thanks again!**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
